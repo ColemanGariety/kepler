@@ -1,0 +1,182 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'publish',
+1 verbose cli   '--no-bin-link',
+1 verbose cli   '--loglevel',
+1 verbose cli   'silly',
+1 verbose cli   '.' ]
+2 info using npm@1.2.19
+3 info using node@v0.10.4
+4 verbose node symlink /usr/local/bin/node
+5 verbose publish [ '.' ]
+6 verbose read json /Users/Jackson/Sites/kepler/package.json
+7 verbose cache add [ '.', null ]
+8 verbose cache add name=undefined spec="." args=[".",null]
+9 verbose parsed url { protocol: null,
+9 verbose parsed url   slashes: null,
+9 verbose parsed url   auth: null,
+9 verbose parsed url   host: null,
+9 verbose parsed url   port: null,
+9 verbose parsed url   hostname: null,
+9 verbose parsed url   hash: null,
+9 verbose parsed url   search: null,
+9 verbose parsed url   query: null,
+9 verbose parsed url   pathname: '.',
+9 verbose parsed url   path: '.',
+9 verbose parsed url   href: '.' }
+10 silly lockFile 3a52ce78- .
+11 verbose lock . /Users/Jackson/.npm/3a52ce78-.lock
+12 verbose read json package.json
+13 verbose tar pack [ '/Users/Jackson/tmp/npm-21051/1380786034019-0.9887877258006483/tmp.tgz',
+13 verbose tar pack   '.' ]
+14 verbose tarball /Users/Jackson/tmp/npm-21051/1380786034019-0.9887877258006483/tmp.tgz
+15 verbose folder .
+16 info prepublish kepler@1.0.0
+17 silly lockFile 3a52ce78- .
+18 verbose lock . /Users/Jackson/.npm/3a52ce78-.lock
+19 silly lockFile 949da33b-34019-0-9887877258006483-tmp-tgz /Users/Jackson/tmp/npm-21051/1380786034019-0.9887877258006483/tmp.tgz
+20 verbose lock /Users/Jackson/tmp/npm-21051/1380786034019-0.9887877258006483/tmp.tgz /Users/Jackson/.npm/949da33b-34019-0-9887877258006483-tmp-tgz.lock
+21 silly lockFile 3a52ce78- .
+22 silly lockFile 3a52ce78- .
+23 silly lockFile 949da33b-34019-0-9887877258006483-tmp-tgz /Users/Jackson/tmp/npm-21051/1380786034019-0.9887877258006483/tmp.tgz
+24 silly lockFile 949da33b-34019-0-9887877258006483-tmp-tgz /Users/Jackson/tmp/npm-21051/1380786034019-0.9887877258006483/tmp.tgz
+25 verbose tar unpack /Users/Jackson/tmp/npm-21051/1380786034019-0.9887877258006483/tmp.tgz
+26 silly lockFile 72df03fd-34019-0-9887877258006483-package /Users/Jackson/tmp/npm-21051/1380786034019-0.9887877258006483/package
+27 verbose lock /Users/Jackson/tmp/npm-21051/1380786034019-0.9887877258006483/package /Users/Jackson/.npm/72df03fd-34019-0-9887877258006483-package.lock
+28 silly lockFile 949da33b-34019-0-9887877258006483-tmp-tgz /Users/Jackson/tmp/npm-21051/1380786034019-0.9887877258006483/tmp.tgz
+29 verbose lock /Users/Jackson/tmp/npm-21051/1380786034019-0.9887877258006483/tmp.tgz /Users/Jackson/.npm/949da33b-34019-0-9887877258006483-tmp-tgz.lock
+30 silly gunzTarPerm modes [ '755', '644' ]
+31 silly gunzTarPerm extractEntry package.json
+32 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+33 silly gunzTarPerm extractEntry .npmignore
+34 silly gunzTarPerm modified mode [ '.npmignore', 438, 420 ]
+35 silly gunzTarPerm extractEntry README.md
+36 silly gunzTarPerm extractEntry index.js
+37 silly gunzTarPerm modified mode [ 'index.js', 438, 420 ]
+38 silly gunzTarPerm extractEntry examples/app.js
+39 silly gunzTarPerm modified mode [ 'examples/app.js', 438, 420 ]
+40 silly gunzTarPerm extractEntry examples/index.html
+41 silly gunzTarPerm modified mode [ 'examples/index.html', 438, 420 ]
+42 silly gunzTarPerm extractEntry lib/ender.js
+43 silly gunzTarPerm modified mode [ 'lib/ender.js', 438, 420 ]
+44 silly gunzTarPerm extractEntry lib/kepler.js
+45 silly gunzTarPerm modified mode [ 'lib/kepler.js', 438, 420 ]
+46 verbose read json /Users/Jackson/tmp/npm-21051/1380786034019-0.9887877258006483/package/package.json
+47 silly lockFile 72df03fd-34019-0-9887877258006483-package /Users/Jackson/tmp/npm-21051/1380786034019-0.9887877258006483/package
+48 silly lockFile 72df03fd-34019-0-9887877258006483-package /Users/Jackson/tmp/npm-21051/1380786034019-0.9887877258006483/package
+49 silly lockFile 949da33b-34019-0-9887877258006483-tmp-tgz /Users/Jackson/tmp/npm-21051/1380786034019-0.9887877258006483/tmp.tgz
+50 silly lockFile 949da33b-34019-0-9887877258006483-tmp-tgz /Users/Jackson/tmp/npm-21051/1380786034019-0.9887877258006483/tmp.tgz
+51 verbose from cache /Users/Jackson/tmp/npm-21051/1380786034019-0.9887877258006483/package/package.json
+52 verbose tar pack [ '/Users/Jackson/.npm/kepler/1.0.0/package.tgz',
+52 verbose tar pack   '/Users/Jackson/tmp/npm-21051/1380786034019-0.9887877258006483/package' ]
+53 verbose tarball /Users/Jackson/.npm/kepler/1.0.0/package.tgz
+54 verbose folder /Users/Jackson/tmp/npm-21051/1380786034019-0.9887877258006483/package
+55 silly lockFile 72df03fd-34019-0-9887877258006483-package /Users/Jackson/tmp/npm-21051/1380786034019-0.9887877258006483/package
+56 verbose lock /Users/Jackson/tmp/npm-21051/1380786034019-0.9887877258006483/package /Users/Jackson/.npm/72df03fd-34019-0-9887877258006483-package.lock
+57 silly lockFile 377ea126-son-npm-kepler-1-0-0-package-tgz /Users/Jackson/.npm/kepler/1.0.0/package.tgz
+58 verbose lock /Users/Jackson/.npm/kepler/1.0.0/package.tgz /Users/Jackson/.npm/377ea126-son-npm-kepler-1-0-0-package-tgz.lock
+59 silly lockFile 72df03fd-34019-0-9887877258006483-package /Users/Jackson/tmp/npm-21051/1380786034019-0.9887877258006483/package
+60 silly lockFile 72df03fd-34019-0-9887877258006483-package /Users/Jackson/tmp/npm-21051/1380786034019-0.9887877258006483/package
+61 silly lockFile 377ea126-son-npm-kepler-1-0-0-package-tgz /Users/Jackson/.npm/kepler/1.0.0/package.tgz
+62 silly lockFile 377ea126-son-npm-kepler-1-0-0-package-tgz /Users/Jackson/.npm/kepler/1.0.0/package.tgz
+63 silly lockFile 1ad4af91-Jackson-npm-kepler-1-0-0-package /Users/Jackson/.npm/kepler/1.0.0/package
+64 verbose lock /Users/Jackson/.npm/kepler/1.0.0/package /Users/Jackson/.npm/1ad4af91-Jackson-npm-kepler-1-0-0-package.lock
+65 silly lockFile 1ad4af91-Jackson-npm-kepler-1-0-0-package /Users/Jackson/.npm/kepler/1.0.0/package
+66 silly lockFile 1ad4af91-Jackson-npm-kepler-1-0-0-package /Users/Jackson/.npm/kepler/1.0.0/package
+67 verbose tar unpack /Users/Jackson/.npm/kepler/1.0.0/package.tgz
+68 silly lockFile 1ad4af91-Jackson-npm-kepler-1-0-0-package /Users/Jackson/.npm/kepler/1.0.0/package
+69 verbose lock /Users/Jackson/.npm/kepler/1.0.0/package /Users/Jackson/.npm/1ad4af91-Jackson-npm-kepler-1-0-0-package.lock
+70 silly lockFile 377ea126-son-npm-kepler-1-0-0-package-tgz /Users/Jackson/.npm/kepler/1.0.0/package.tgz
+71 verbose lock /Users/Jackson/.npm/kepler/1.0.0/package.tgz /Users/Jackson/.npm/377ea126-son-npm-kepler-1-0-0-package-tgz.lock
+72 silly gunzTarPerm modes [ '755', '644' ]
+73 silly gunzTarPerm extractEntry package.json
+74 silly gunzTarPerm extractEntry .npmignore
+75 silly gunzTarPerm extractEntry README.md
+76 silly gunzTarPerm extractEntry index.js
+77 silly gunzTarPerm extractEntry examples/app.js
+78 silly gunzTarPerm extractEntry examples/index.html
+79 silly gunzTarPerm extractEntry lib/ender.js
+80 silly gunzTarPerm extractEntry lib/kepler.js
+81 verbose read json /Users/Jackson/.npm/kepler/1.0.0/package/package.json
+82 silly lockFile 1ad4af91-Jackson-npm-kepler-1-0-0-package /Users/Jackson/.npm/kepler/1.0.0/package
+83 silly lockFile 1ad4af91-Jackson-npm-kepler-1-0-0-package /Users/Jackson/.npm/kepler/1.0.0/package
+84 silly lockFile 377ea126-son-npm-kepler-1-0-0-package-tgz /Users/Jackson/.npm/kepler/1.0.0/package.tgz
+85 silly lockFile 377ea126-son-npm-kepler-1-0-0-package-tgz /Users/Jackson/.npm/kepler/1.0.0/package.tgz
+86 verbose from cache /Users/Jackson/.npm/kepler/1.0.0/package/package.json
+87 verbose chmod /Users/Jackson/.npm/kepler/1.0.0/package.tgz 644
+88 verbose chown /Users/Jackson/.npm/kepler/1.0.0/package.tgz [ 501, 20 ]
+89 silly lockFile 3a52ce78- .
+90 silly publish { name: 'kepler',
+90 silly publish   description: 'Logical operators for handlebars.js hail satan.',
+90 silly publish   version: '1.0.0',
+90 silly publish   homepage: 'https://github.com/JacksonGariety/kepler',
+90 silly publish   author:
+90 silly publish    { name: 'Jackson Gariety',
+90 silly publish      email: 'personal@jacksongariety.com',
+90 silly publish      url: 'http://jacksongariety.com' },
+90 silly publish   main: './lib/kepler.js',
+90 silly publish   keywords:
+90 silly publish    [ 'kepler',
+90 silly publish      'ender',
+90 silly publish      'handlebars',
+90 silly publish      'logical',
+90 silly publish      'operators',
+90 silly publish      'handlebarsjs' ],
+90 silly publish   ender: './lib/ender.js',
+90 silly publish   repository:
+90 silly publish    { type: 'git',
+90 silly publish      url: 'https://github.com/JacksonGariety/kepler.git' },
+90 silly publish   dependencies: { handlebars: '*' },
+90 silly publish   readme: 'kepler\n======\n\nLogical operators for Handlebars.js.\n\n\n\n    <html>\n      {{#if var1 \'&&\' var2}}\n        both var1 and var2 are true\n      {{/if}}\n    </html>\n\n<br>\n<br>\n<br>\n<br>\n<br>\n\nI am the devil.',
+90 silly publish   readmeFilename: 'README.md',
+90 silly publish   bugs: { url: 'https://github.com/JacksonGariety/kepler/issues' },
+90 silly publish   _id: 'kepler@1.0.0',
+90 silly publish   dist: { shasum: 'c1f2ba424f5394a125b81d5329bc6c360c05411d' },
+90 silly publish   _from: '.' }
+91 verbose url raw kepler
+92 verbose url resolving [ 'https://registry.npmjs.org/', './kepler' ]
+93 verbose url resolved https://registry.npmjs.org/kepler
+94 info trying registry request attempt 1 at 00:41:34
+95 http PUT https://registry.npmjs.org/kepler
+96 http 409 https://registry.npmjs.org/kepler
+97 verbose url raw kepler
+98 verbose url resolving [ 'https://registry.npmjs.org/', './kepler' ]
+99 verbose url resolved https://registry.npmjs.org/kepler
+100 info trying registry request attempt 1 at 00:41:34
+101 http GET https://registry.npmjs.org/kepler
+102 http 200 https://registry.npmjs.org/kepler
+103 verbose uploading [ 'kepler/-/kepler-1.0.0.tgz/-rev/24-427b0366cb53d91be21c677344c2e429',
+103 verbose uploading   '/Users/Jackson/.npm/kepler/1.0.0/package.tgz' ]
+104 verbose url raw kepler/-/kepler-1.0.0.tgz/-rev/24-427b0366cb53d91be21c677344c2e429
+105 verbose url resolving [ 'https://registry.npmjs.org/',
+105 verbose url resolving   './kepler/-/kepler-1.0.0.tgz/-rev/24-427b0366cb53d91be21c677344c2e429' ]
+106 verbose url resolved https://registry.npmjs.org/kepler/-/kepler-1.0.0.tgz/-rev/24-427b0366cb53d91be21c677344c2e429
+107 info trying registry request attempt 1 at 00:41:35
+108 http PUT https://registry.npmjs.org/kepler/-/kepler-1.0.0.tgz/-rev/24-427b0366cb53d91be21c677344c2e429
+109 http 403 https://registry.npmjs.org/kepler/-/kepler-1.0.0.tgz/-rev/24-427b0366cb53d91be21c677344c2e429
+110 info trying registry request attempt 1 at 00:41:36
+111 http PUT https://registry.npmjs.org/kepler/-/kepler-1.0.0.tgz/-rev/24-427b0366cb53d91be21c677344c2e429
+112 http 403 https://registry.npmjs.org/kepler/-/kepler-1.0.0.tgz/-rev/24-427b0366cb53d91be21c677344c2e429
+113 error publish Error uploading package
+114 error Error: forbidden user: jacksongariety not authorized to modify kepler
+114 error Added: _attachments.kepler-1.0.0.tgz: kepler/-/kepler-1.0.0.tgz/-rev/24-427b0366cb53d91be21c677344c2e429
+114 error     at RegClient.<anonymous> (/usr/local/Cellar/node/0.10.4/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:269:14)
+114 error     at Request.self.callback (/usr/local/Cellar/node/0.10.4/lib/node_modules/npm/node_modules/request/index.js:148:22)
+114 error     at Request.EventEmitter.emit (events.js:98:17)
+114 error     at Request.<anonymous> (/usr/local/Cellar/node/0.10.4/lib/node_modules/npm/node_modules/request/index.js:873:14)
+114 error     at Request.EventEmitter.emit (events.js:117:20)
+114 error     at IncomingMessage.<anonymous> (/usr/local/Cellar/node/0.10.4/lib/node_modules/npm/node_modules/request/index.js:824:12)
+114 error     at IncomingMessage.EventEmitter.emit (events.js:117:20)
+114 error     at _stream_readable.js:883:14
+114 error     at process._tickCallback (node.js:415:13)
+115 error If you need help, you may report this log at:
+115 error     <http://github.com/isaacs/npm/issues>
+115 error or email it to:
+115 error     <npm-@googlegroups.com>
+116 error System Darwin 12.5.0
+117 error command "node" "/usr/local/bin/npm" "publish" "--no-bin-link" "--loglevel" "silly" "."
+118 error cwd /Users/Jackson/Sites/kepler
+119 error node -v v0.10.4
+120 error npm -v 1.2.19
+121 verbose exit [ 1, true ]

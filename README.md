@@ -1,9 +1,7 @@
 kepler
 ======
 
-Logical operators for Handlebars.js.
-
-
+Logical operators for handlebars.js _hail satan_. 
 
     <html>
       {{#if var1 '&&' var2}}
@@ -13,7 +11,11 @@ Logical operators for Handlebars.js.
 
 <br>
 <br>
+it's that easy! `npm install handlebars-kepler` Just,
 <br>
+<br>
+<br>
+...
 <br>
 <br>
 
