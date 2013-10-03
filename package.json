@@ -1,0 +1,7 @@
+{
+  "name": "kepler",
+  "description": "Logical operators for Handlebars.js",
+  "dependencies": {
+    "handlebars": "*"
+  }
+}
