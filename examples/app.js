@@ -20,7 +20,7 @@ console.log("output = " + output)
 
 // Example 3
 console.log("\nExample 3")
-input = "\"My name is {{#if '(true || false) && true'}}David{{else}}Anon{{/if}}.\""
+input = "\"My name is {{#if '(' a '||' b ') &&' true}}David{{else}}Anon{{/if}}.\""
 console.log("input = " + input)
-output = Kepler.compile(input)()
+output = Kepler.compile(input)({ a: true, b: false })
 console.log("output = " + output)
